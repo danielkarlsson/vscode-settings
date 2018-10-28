@@ -1,0 +1,54 @@
+// Place your key bindings in this file to overwrite the defaults
+[
+  { "key": "enter", "command": "list.select",
+                    "when": "explorerViewletVisible && filesExplorerFocus"
+                  },
+                  {
+                    "key": "ctrl+j",
+                    "command": "workbench.action.quickOpenNavigateNextInFilePicker",
+                    "when": "inFilesPicker && inQuickOpen"
+                  },
+                  {
+                    "key": "cmd+p",
+                    "command": "-workbench.action.quickOpenNavigateNextInFilePicker",
+                    "when": "inFilesPicker && inQuickOpen"
+                  },
+                  {
+                    "key": "ctrl+p",
+                    "command": "workbench.action.quickOpen"
+                  },
+                  {
+                    "key": "cmd+p",
+                    "command": "-workbench.action.quickOpen"
+                  },
+                  {
+                    "key": "ctrl+j",
+                    "command": "workbench.action.quickOpenNavigateNextInViewPicker",
+                    "when": "inQuickOpen && inViewsPicker"
+                  },
+                  {
+                    "key": "ctrl+q",
+                    "command": "-workbench.action.quickOpenNavigateNextInViewPicker",
+                    "when": "inQuickOpen && inViewsPicker"
+                  },
+                  {
+                    "key": "ctrl+k",
+                    "command": "workbench.action.quickOpenNavigatePreviousInEditorPicker",
+                    "when": "inEditorsPicker && inQuickOpen"
+                  },
+                  {
+                    "key": "ctrl+shift+tab",
+                    "command": "-workbench.action.quickOpenNavigatePreviousInEditorPicker",
+                    "when": "inEditorsPicker && inQuickOpen"
+                  },
+                  {
+                    "key": "ctrl+k",
+                    "command": "workbench.action.quickOpenNavigatePreviousInFilePicker",
+                    "when": "inFilesPicker && inQuickOpen"
+                  },
+                  {
+                    "key": "shift+cmd+p",
+                    "command": "-workbench.action.quickOpenNavigatePreviousInFilePicker",
+                    "when": "inFilesPicker && inQuickOpen"
+                  },
+]

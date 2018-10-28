@@ -1,0 +1,49 @@
+// Place your settings in this file to overwrite the default settings
+{
+  "editor.fontSize": 14,
+  "editor.fontFamily": "Source Code Pro",
+  "editor.cursorBlinking": "solid",
+  "editor.rulers": [80],
+  "editor.tabCompletion": true,
+  "editor.renderIndentGuides": true,
+  "editor.highlightActiveIndentGuide": true,
+  "editor.scrollBeyondLastLine": false,
+  "editor.minimap.enabled": false,
+  "guides.enabled": false,
+  "explorer.openEditors.visible": 0,
+  "window.zoomLevel": -1,
+  "files.insertFinalNewline": true,
+
+  // Vim
+  "vim.overrideCopy": false,
+  "vim.useSystemClipboard": true,
+  "workbench.iconTheme": "vs-minimal",
+  "workbench.activityBar.visible": false,
+  "workbench.statusBar.visible": false,
+  "workbench.editor.showIcons": false,
+  "workbench.editor.enablePreview": false,
+  "sync.gist": "",
+  "sync.autoDownload": false,
+  "sync.autoUpload": false,
+  "sync.forceDownload": false,
+  "editor.tabSize": 2,
+  "eslint.autoFixOnSave": true,
+
+  // Prettier
+  "editor.formatOnSave": true,
+  "vetur.format.defaultFormatter.stylus": "none",
+
+  // Enable per-language
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
+  "workbench.colorTheme": "Seoul Dark",
+  "breadcrumbs.enabled": false,
+  "files.useExperimentalFileWatcher": true,
+  "tslint.packageManager": "yarn",
+  "prettier.eslintIntegration": true,
+  "prettier.semi": false,
+  "prettier.requireConfig": true,
+  "prettier.tslintIntegration": true
+}
