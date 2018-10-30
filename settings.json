@@ -4,43 +4,36 @@
   "editor.fontFamily": "Source Code Pro",
   "editor.cursorBlinking": "solid",
   "editor.rulers": [80],
-  "editor.tabCompletion": true,
+  "editor.tabSize": 2,
+  "editor.tabCompletion": "on",
   "editor.renderIndentGuides": true,
   "editor.highlightActiveIndentGuide": true,
   "editor.scrollBeyondLastLine": false,
   "editor.minimap.enabled": false,
+  "editor.formatOnSave": true,
+  "[javascript]": {
+    "editor.formatOnSave": true
+  },
+
   "guides.enabled": false,
   "explorer.openEditors.visible": 0,
   "window.zoomLevel": -1,
   "files.insertFinalNewline": true,
+  "breadcrumbs.enabled": false,
+  "files.useExperimentalFileWatcher": true,
 
-  // Vim
   "vim.overrideCopy": false,
   "vim.useSystemClipboard": true,
+
+  "workbench.colorTheme": "Seoul Dark",
   "workbench.iconTheme": "vs-minimal",
   "workbench.activityBar.visible": false,
   "workbench.statusBar.visible": false,
   "workbench.editor.showIcons": false,
   "workbench.editor.enablePreview": false,
-  "sync.gist": "",
-  "sync.autoDownload": false,
-  "sync.autoUpload": false,
-  "sync.forceDownload": false,
-  "editor.tabSize": 2,
-  "eslint.autoFixOnSave": true,
 
-  // Prettier
-  "editor.formatOnSave": true,
   "vetur.format.defaultFormatter.stylus": "none",
-
-  // Enable per-language
-  "[javascript]": {
-    "editor.formatOnSave": true
-  },
-
-  "workbench.colorTheme": "Seoul Dark",
-  "breadcrumbs.enabled": false,
-  "files.useExperimentalFileWatcher": true,
+  "eslint.autoFixOnSave": true,
   "tslint.packageManager": "yarn",
   "prettier.eslintIntegration": true,
   "prettier.semi": false,
